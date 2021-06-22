@@ -17,7 +17,7 @@ export default function Home({ session }) {
         <title>Next Chat</title>
       </Head>
 
-      <div className="top-0 sticky z-10">
+      <div className="top-0 sticky z-10 backdrop-blur-sm pb-3">
       <Header  />
       <MessageInput />
       </div>
